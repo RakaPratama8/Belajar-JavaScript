@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch-statement</title>
+</head>
+
+<body>
+    <script>
+        const nilai = "D";
+
+        switch (nilai) { //switch rekomen untuk operasi ==
+            case "A":
+                alert("Nilai mu bagus");
+                break;
+            case "B":
+            case "C":
+                alert("Nilai mu cukup bagus");
+                break;
+            default: //seperti "else" di if statement
+                alert("Kamu gagal");
+                window.close();
+                break;
+        }
+    </script>
+</body>
+
+</html>

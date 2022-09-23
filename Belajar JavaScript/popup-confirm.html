@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup-confirm</title>
+</head>
+<body>
+    <script>
+        const login = confirm("Ingin melanjutkan?") //ok(true) or cancel(false)
+        if(login) {
+            const nama = prompt("Username: ");
+            alert(`Selamat Datang ${nama}`);
+        } else {
+            alert("Selamat tinggal");
+            window.close(); //close tab (tambahan aja)
+        };
+    </script>
+</body>
+</html>
+ 

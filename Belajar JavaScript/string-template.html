@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+
+        //  const name = "Muhamad Raka Pratama";
+
+        const firstName = "Muhamad";
+        const middleName = "Raka";
+        const lastName = "Pratama";
+
+        const template = `Name: ${firstName} ${middleName} ${lastName} `; //pakai backtick (`)
+
+        console.info(template);
+
+        console.info("-----------EXPRESSION DI STRING TEMPLATE------------");
+
+        const fullName = "Muhamad Raka Pratama";
+        const nilai = 90;
+
+        const result = `Name: ${fullName}, Lulus: ${nilai > 80}` //BISA DIMASUKAN EXPRESSION
+
+        console.info(result);
+
+    </script>
+</body>
+</html>
