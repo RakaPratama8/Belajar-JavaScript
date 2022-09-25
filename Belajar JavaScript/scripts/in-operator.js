@@ -15,7 +15,7 @@ if ("personTiga" in person) {
 
 
 //pengecekan in tanpa null dan undefined -------
-if (person.personTiga != undefined, person.personTiga != null && "personTiga" in person) {
+if (person.personTiga != undefined && person.personTiga != null && "personTiga" in person) {
     console.info(`Hello ${person.personTiga}`);
 } else {
     console.info("Hello Student");

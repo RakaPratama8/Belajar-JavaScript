@@ -6,6 +6,8 @@ const orang = {
 
 console.table(orang);
 
-console.info(`Nama: ${orang.nama}`) //REKOMENDASI
+console.info("Nama: " + orang.nama); //TIDAK REKOMENDASI
+
+console.info(`Nama: ${orang.nama}`) //REKOMENDASI, pakai `...${}`
 console.info(`Umur: ${orang.umur}`)
 console.info(`Jenis kelamin: ${orang["jenis kelamin"]}`)

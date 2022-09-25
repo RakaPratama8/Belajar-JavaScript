@@ -3,4 +3,4 @@ const nilai = 74;
 
 const ucapan = nilai >= 75 ? "Anda Lulus" : "Anda Gagal";
 
-console.info(ucapan)
+console.info(ucapan);
