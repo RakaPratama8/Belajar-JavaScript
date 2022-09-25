@@ -1,13 +1,20 @@
-const kampus = "A";
+let array = [
+  "Muhamad", "Raka", "Pratama"
+];
 
-switch (kampus) {
-  case "A":
-  case "B":
-  case "B":
-    console.info("Silahkan Masuk :)");
-    break;
+for (const value of array) {
+  console.info(value);
 
-  default:
-    console.info("Kampus tidak diketahui");
-    break;
 }
+
+// const array2 = {
+//   nama : "Raka",
+//   gender : "Laki laki",
+//   hobi : "olahraga"
+// }
+
+// for (const of array2) {
+
+//   console.info(array2);
+  
+// }
