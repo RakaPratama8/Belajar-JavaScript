@@ -1,20 +1,14 @@
-let array = [
-  "Muhamad", "Raka", "Pratama"
-];
+//nested function (function didalam function)
 
-for (const value of array) {
-  console.info(value);
+function outer(){
+    let total = 0 //variabel pada outer function bisa di akses oleh inner function
+    function inner(...number){ //inner function
+        for (const sum of number) {
+            total += sum;
+        }
+        console.log(total)
+    }
+    inner(1,2,3,4,5) //inner function hanya bisa diakses di dalam outer function saja
+};
 
-}
-
-// const array2 = {
-//   nama : "Raka",
-//   gender : "Laki laki",
-//   hobi : "olahraga"
-// }
-
-// for (const of array2) {
-
-//   console.info(array2);
-  
-// }
+outer()
