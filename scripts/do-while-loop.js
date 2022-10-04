@@ -1,5 +1,5 @@
 // "do", minimal dieksekusi sekali walaupun value bernilai false
-let value = 179;
+let value = 1;
 
 do {
   if (value % 2) {
